@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,800&family=Quicksand:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: quicksand;
+}
+
+body {
+  background-color: rgb(0, 34, 51);
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.body .inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.body .inner > h1 {
+  color: white;
+  text-align: center;
+}
+.body .inner .outer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.body .inner .outer .inter {
+  padding: 5px;
+  width: 230px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.body .inner .outer .plus {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 40px;
+  background-color: crimson;
+  border: none;
+  border-left: 1px solid crimson;
+  cursor: pointer;
+}
+.body .notes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+}
+.body .notes .list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 230px;
+  background-color: rgb(23, 39, 63);
+  margin: 5px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .notes .list .words {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+.body .notes .list .del {
+  background-color: rgb(1, 155, 191);
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
